@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: flask-api
+spec:
+  containers:
+  - name: flask-api
+    image: docker.io/jebinj/flask-api
+    ports:
+    - containerPort: 8080
+
